@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="lib/mocha.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 👍 YOUR HTML HERE 👍 -->
+<img id= 'dagger' src="https://www.coldsteel.com/media/catalog/product/cache/1/thumbnail/480x/17f82f742ffe127f42dca9de82fb58b1/9/2/92rdagz_3.jpg" alt="">
+<img id= 'bag' src="https://cdn.vox-cdn.com/thumbor/vc9GyAk6JPfUJyD0QBJd_bQB9Mw=/0x0:1136x510/1200x800/filters:focal(478x165:658x345)/cdn.vox-cdn.com/uploads/chorus_image/image/60141141/Bungie_guns.0.jpg" alt="">
+<img id= 'inn' src="https://www.marycoaching.com/wp-content/uploads/Recharging-Cropped-2.jpg" alt="" >
+
+
+
+  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
+
+  <div id="mocha">
+  <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
+  </div>
+
+  <script src="lib/chai.js"></script>
+  <script src="lib/mocha.js"></script>
+  <script src="lib/sinon.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+  <script src="lib/game_logic.test.js"></script>
+
+</body>
+</html>
